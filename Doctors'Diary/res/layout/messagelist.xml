@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Snow"
+    
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+
+
+    
+    <TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+         <TableRow
+            android:layout_width="wrap_content"
+            
+            android:layout_height="wrap_content" >
+            
+            
+               <Button
+                android:id="@+id/backbutton"
+                android:clickable="true"
+                 android:layout_width="60dp"
+                 android:layout_height="60dp"
+              
+                android:background="@drawable/backbutton"
+                 />
+               
+               <TextView
+                         android:id="@+id/patientname"
+                         android:layout_width="500dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="20dp"
+                          android:textStyle="bold"
+                         android:textColor="@color/BLACK"
+                         android:textSize="25dp" />
+            
+        </TableRow>
+        
+         </TableLayout>
+
+     
+ 
+        
+    
+       <ListView
+        android:id="@+id/msglist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+         
+        
+     
+     
+     
+    
+</LinearLayout>

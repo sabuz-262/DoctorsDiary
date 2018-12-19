@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Snow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/backbutton"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/backbutton"
+                android:clickable="true" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Patient Name:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/appname"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Email:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/appemail"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+        
+         </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact No:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/appmobile"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+               
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Date"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/appdate"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/changedate"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="Change Date"
+                android:textSize="20dp" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Time:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/apptime"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/changetime"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:text="Change Time"
+                android:textSize="20dp" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="112dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/blackbutton"
+                android:text="delete"
+                android:textColor="@color/WHITE"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

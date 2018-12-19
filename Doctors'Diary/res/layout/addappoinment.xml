@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Snow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+
+
+    <TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp" >
+
+         
+       
+            
+            <TableRow
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+             android:layout_marginLeft="25dp"
+	         android:layout_width="200dp"
+	          android:layout_marginTop="10dp"
+	         android:layout_height="50dp"
+	         android:text="Patient Name"
+	        
+	           android:textSize="20dp"
+            
+            />
+
+            <EditText
+                android:id="@+id/patientname"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext"
+                android:inputType="text"
+                android:textSize="15sp" />
+           </TableRow>
+       </TableLayout>
+            
+       <TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp" >
+        
+         <TableRow
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               
+            
+            
+            
+            
+            <TextView
+             android:layout_marginLeft="25dp"
+	         android:layout_width="200dp"
+	          android:layout_marginTop="10dp"
+	         android:layout_height="50dp"
+	         android:text="Patient Email"
+	        
+	           android:textSize="20dp"
+            
+            />
+
+            <EditText
+                android:id="@+id/patientemail"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext"
+               android:inputType="textEmailAddress"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/patientemailvalidator"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp" />
+           </TableRow>
+               </TableLayout>
+               
+       
+       <TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp" >
+
+        <TableRow
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               
+            
+            
+           
+            
+            <TextView
+             android:layout_marginLeft="25dp"
+	         android:layout_width="200dp"
+	          android:layout_marginTop="10dp"
+	         android:layout_height="50dp"
+	         android:text="Patient Mobile No"
+	        
+	           android:textSize="20dp"
+            
+            />
+
+            <EditText
+                android:id="@+id/patientmobile"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext"
+               android:inputType="number"
+                android:textSize="15sp" />
+           </TableRow>
+               </TableLayout>
+
+            
+       
+        
+
+    
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="160dp" >
+
+            <TableRow
+               android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                
+
+            </TableRow>
+        </TableLayout>
+ <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+              >
+
+     
+
+            <TableRow
+               
+                android:layout_marginTop="10dp"   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            
+                <TextView
+             android:layout_marginLeft="205dp"
+	         android:layout_width="100dp"
+	          android:layout_marginTop="40dp"
+	         android:layout_height="50dp"
+	         android:text="Time"
+	        
+	           android:textSize="20dp"
+	           />
+
+                <TimePicker
+         android:id="@+id/timePicker"
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="100dp"
+         android:layout_height="150dp" />
+                
+                
+            </TableRow>
+        </TableLayout>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+              >
+
+     
+
+            <TableRow
+               
+                android:layout_marginTop="10dp"   
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                 <TextView
+             android:layout_marginLeft="205dp"
+	         android:layout_width="100dp"
+	          android:layout_marginTop="70dp"
+	         android:layout_height="50dp"
+	         android:text="Date"
+	        
+	           android:textSize="20dp"
+	           />
+
+              <DatePicker
+              android:id="@+id/datePicker"
+              android:layout_width="wrap_content"
+               android:layout_marginLeft="100dp"
+              android:layout_height="200dp" />
+                
+                
+            </TableRow>
+        </TableLayout>
+      <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="60dp" >
+
+          
+
+            <TableRow
+               
+                   android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/addappoinmentbutton"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="350dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/blackbutton"
+                    android:text="add appointment"
+                    android:textColor="@color/WHITE"
+                    android:textSize="15dp" />
+
+            </TableRow>
+        </TableLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+         <TableRow
+            android:layout_width="wrap_content"
+            
+            android:layout_height="wrap_content" >
+            
+            
+               <Button
+                android:id="@+id/backbutton"
+                android:clickable="true"
+                 android:layout_width="60dp"
+                 android:layout_height="60dp"
+              
+                android:background="@drawable/backbutton"
+                 />
+            
+        </TableRow>
+        
+         </TableLayout>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/mic1" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="280dp"
+                android:background="@drawable/blackbutton"
+                android:onClick="startRecording"
+                android:text="Start"
+                android:textColor="@color/WHITE"
+                android:textSize="20dp" >
+            </Button>
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+               android:layout_marginLeft="100dp"
+                android:background="@drawable/blackbutton"
+                android:enabled="false"
+                android:onClick="stopRecording"
+                android:text="Finish"
+                android:textColor="@color/WHITE"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/confirmmsg"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="95dp"
+                android:background="#aa0000"
+                android:textColorLink="@android:color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

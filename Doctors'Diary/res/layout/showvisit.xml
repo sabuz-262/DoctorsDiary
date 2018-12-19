@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/WHITE"
+    android:orientation="vertical" >
+    
+     <TextView
+                   
+                    android:text="Show Visit" 
+                    android:layout_width="400dp"
+                    android:layout_marginLeft="300dp"  
+                    android:textColor="@color/MediumBlue"     
+                    android:layout_height="40dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                     />
+    
+     <Spinner
+                android:id="@+id/patientlistspinner"
+                android:layout_width="200dp"
+                android:background="@color/Honeydew2"
+                android:layout_height="40dp"
+                android:layout_marginLeft="300dp"  
+                android:layout_marginTop="25dp"
+                android:spinnerMode="dialog"
+                android:inputType="text"
+                android:textSize="30sp" >          
+            </Spinner>
+    
+    <ListView
+        android:id="@+id/menulist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_weight="1"
+        android:drawSelectorOnTop="false" />
+
+
+</LinearLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Snow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="15dp"
+                android:clickable="true"
+                android:text="Patient General Information"
+                android:textColor="@color/BLACK"
+                android:textColorLink="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Patient Name:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientnametextview"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Patient Email:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientemailtextview"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Patient Age:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientage"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact No:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientmobile"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Blood Group:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientbloodgroup"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Sex:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientsex"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+
+       
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:text="Added Date:"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/patientaddeddate"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/WHITE"
+                android:textSize="25dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/addvisit"
+                android:layout_marginLeft="400dp"
+                android:clickable="true"
+                android:gravity="right"
+                android:text="Add Visit"
+                android:textColorLink="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/editgenaralinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="750dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

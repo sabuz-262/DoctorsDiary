@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="#6D7B8D">
+
+  <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="65dip"
+    android:layout_marginRight="5dip"
+    android:layout_weight="1"
+    />
+
+ 
+  <LinearLayout 
+      android:orientation="vertical"
+      android:layout_width="80dip"
+      android:layout_height="fill_parent">
+
+  <ImageButton
+      android:id="@+id/button_capture"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="5dip"
+      android:layout_marginTop="140dip"
+      android:background="@drawable/cam" />
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="77dip"
+      android:layout_height="80dip"
+      android:layout_gravity="bottom"
+      android:layout_marginTop="33dip"
+      
+      android:src="@drawable/cam" />
+  
+  <Button
+      android:id="@+id/backbutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_marginRight="5dip"
+      android:layout_marginTop="140dip"
+      android:background="@drawable/backbutton" />
+</LinearLayout>
+</LinearLayout>

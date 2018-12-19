@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:background="@color/Snow"
+    android:layout_height="fill_parent"  
+    android:orientation="vertical"
+    android:padding="2dp" >
+    
+         <TableLayout
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+         <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+      <Spinner
+                android:id="@+id/visitdatespinner"
+                android:layout_width="200dp"
+                android:background="@drawable/edittext"
+                android:layout_height="40dp"
+                android:layout_marginLeft="250dp"  
+                android:layout_marginTop="15dp"
+                android:spinnerMode="dialog"
+                android:inputType="text"
+                android:textSize="30sp" >          
+            </Spinner>
+            
+       </TableRow>
+        </TableLayout>
+
+      <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Hemoglobin" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/hemtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	         
+	           android:textSize="20dp"
+            
+            />      
+            
+        <TextView
+            android:id="@+id/hemgraph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"
+            
+            />      
+      </TableRow>  
+       
+    </TableLayout>
+
+     <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="ESR" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/esrtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	       
+	           android:textSize="20dp"
+            
+            />  
+            
+        <TextView
+            android:id="@+id/esrgraph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"
+            
+            />
+      </TableRow>  
+       
+    </TableLayout>
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="WBC" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/wbctext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	        
+	           android:textSize="20dp"
+	             
+            
+            />
+	           
+            
+               <TextView
+            android:id="@+id/wbcgraph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"></TextView>      
+      </TableRow>  
+       
+    </TableLayout>
+      
+     
+      
+      
+      
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Neotrophilis" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/neotext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	       
+	           android:textSize="20dp"
+            
+            />      
+            
+        
+           <TextView
+            android:id="@+id/neograph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"></TextView>
+      </TableRow>  
+       
+    </TableLayout>
+
+     <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Lymphocytes" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/lymtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	        
+	           android:textSize="20dp"
+            
+            />      
+            <TextView
+            android:id="@+id/lymgraph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"></TextView>
+        
+        
+      </TableRow>  
+       
+    </TableLayout>
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Monocytes" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/monotext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	        
+	           android:textSize="20dp"
+            
+            />       
+            
+        
+        
+        <TextView
+            android:id="@+id/monograph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"></TextView>
+      </TableRow>  
+       
+    </TableLayout>
+       
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="ASO" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+        
+        <TextView
+            android:id="@+id/asotext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	       
+	           android:textSize="20dp"
+            
+            />    
+            
+        <TextView
+            android:id="@+id/asograph"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="120dp"
+	         android:layout_height="50dp"
+	         android:text="show graph"
+	           android:textSize="20dp"
+	           android:clickable="true"></TextView>
+      </TableRow>  
+       
+    </TableLayout>
+    
+      
+      
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="CRP" 
+                    android:layout_width="150dp"
+                    
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+              <TextView
+            android:id="@+id/crptext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="100dp"
+	         android:layout_height="50dp"
+	        
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+    </TableLayout>
+     
+</LinearLayout>

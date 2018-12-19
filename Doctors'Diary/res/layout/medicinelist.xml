@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grouprow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:paddingTop="8dp" >
+    
+
+<TextView
+    android:id="@+id/showmedicnename"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:textColor="@color/BLACK"
+    android:text="Medicine Name"
+    android:textSize="15dp" />
+
+
+
+    <Button
+        android:id="@+id/deletemedicine"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/deletered"
+       android:textSize="15dp"
+       android:textColor="@color/WHITE"
+        android:linksClickable="true"
+       
+         />
+</TableRow>

@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">Doctor Diary</string>
+    
+    
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Menu</string>
+    
+    
+    <string name="pname">Patient Name</string>
+    <string name="page">Patient Age</string>
+    <string name="pres">Patient Residence</string>
+    <string name="dprob">Duration of Problem</string>
+    <string name="bgroup">Patient Blood Group</string>
+    <string name="pnumber">Patient Mobile Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="addappoinment">Add Appoinment</string>
+     <string name="editpatient">Edit Patient</string>
+    <string name="addpatient">Add Patient</string>
+     <string name="menu">Menu</string>
+     <string name="addvisit">Add Visit Data</string>
+     
+     <string name="tab_app_list">Appointment List</string>
+    <string name="tab_new_patient_app">New Patient Appoinment</string>
+     <string name="tab_old_patient_app">Old Patient Appoinment</string>
+    
+    
+       <string name="tab_msg_list">Message List</string>
+    <string name="tab_add_msg">Send Message</string>
+     
+     
+     <string name="tab_visit">Visit</string>
+    <string name="tab_prescription">Prescription</string>
+    
+      <string name="tab_test">TestReport</string>
+    <string name="tab_conversation">Conversation</string>
+    
+      <string name="tab_picture">Picture</string>
+    <string name="tab_audio">Audio Note</string>
+     
+    
+
+</resources>

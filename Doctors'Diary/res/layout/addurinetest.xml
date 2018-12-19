@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:orientation="vertical"
+    android:padding="2dp" >
+     
+
+      <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Glucose" 
+                    android:layout_width="150dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+                 <SeekBar
+            android:id="@+id/glseekBar"       
+            android:background="@color/WHITE"
+            android:layout_marginLeft="80dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/gltext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	         android:text="0"
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+    </TableLayout>
+
+     <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Red Blood Cells" 
+                    android:layout_width="180dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+                 <SeekBar
+            android:id="@+id/redseekBar"       
+            android:background="@color/WHITE"
+            android:layout_marginLeft="45dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/redtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	       android:text="0"
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+    </TableLayout>
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="White Blood Cells" 
+                    android:layout_width="200dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    
+                    />
+                 <SeekBar
+            android:id="@+id/whiteseekBar"       
+            android:background="@color/WHITE"
+            android:layout_marginLeft="30dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/whitetext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	         android:text="0"
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+    </TableLayout>
+      
+     
+      
+      
+      
+      <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="Hemoglobin" 
+                    android:layout_width="180dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+                 <SeekBar
+            android:id="@+id/hemseekBar"       
+            android:background="@color/WHITE"
+            android:layout_marginLeft="50dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/hemtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	         android:text="0"
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+    </TableLayout>
+
+     <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="120dp"
+                    android:text="pH" 
+                    android:layout_width="180dp"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="40dp"
+                    android:textSize="25dp"
+                    
+                    />
+                 <SeekBar
+            android:id="@+id/phseekBar"       
+            android:background="@color/WHITE"
+            android:layout_marginLeft="50dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+        
+        <TextView
+            android:id="@+id/phtext"
+             android:layout_marginLeft="10dp"
+	         android:layout_width="70dp"
+	         android:layout_height="50dp"
+	         android:text="0"
+	           android:textSize="20dp"
+            
+            />       
+      </TableRow>  
+       
+     </TableLayout>
+     
+     <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="112dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/finish"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/blackbutton"
+                android:text="finish"
+                android:textColor="@color/WHITE"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+     
+     
+</LinearLayout>

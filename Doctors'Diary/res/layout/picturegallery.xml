@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow"
+    android:orientation="vertical" >
+   
+ 
+   <GridView 
+    android:id="@+id/picturelist"
+    android:layout_width="fill_parent" 
+    android:layout_height="600dp"
+    android:columnWidth="120dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:stretchMode="spacingWidthUniform"
+    android:gravity="fill_vertical"
+    android:layout_marginLeft="0dp"
+/>
+   <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="visible" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            
+           <Button
+      android:id="@+id/addpicture"
+    
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_vertical"
+      android:layout_marginLeft="850dp"
+     
+      android:layout_marginBottom="15dp"
+      android:background="@drawable/cam" />
+        </TableRow>
+    </TableLayout>
+   
+ </LinearLayout>
+ 

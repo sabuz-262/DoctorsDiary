@@ -1,0 +1,5 @@
+1.Please run this project in samsung galaxy tablet emulator or device.This code is written in Android 3.0 for Tablet.
+
+
+2.If you import this application in eclipse then must add graphview library which is include in the 
+folder.

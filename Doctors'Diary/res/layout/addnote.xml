@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               <TextView
+                    android:layout_marginLeft="200dp"
+                    android:text="Add Note" 
+                    android:layout_width="400dp"
+                    android:textColor="@color/MediumBlue"     
+                    android:layout_height="40dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                     />
+            
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+             <AutoCompleteTextView
+                android:id="@+id/notename"
+                android:layout_width="100dp"
+                android:layout_height="300dp"
+                 android:background="@color/WHITE"
+                android:layout_marginLeft="100dp"
+                android:hint="Note"
+                android:inputType="textMultiLine"
+                android:textSize="20sp" />          
+            
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            
+            
+            <Button 
+                android:id="@+id/addnotebutton"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                  android:layout_marginTop="15dp"
+                android:layout_marginLeft="400dp"          
+                android:textSize="20dp"
+               android:background="@color/WHITE"
+                android:text="Add Note"
+                />
+        </TableRow>
+       
+        
+        
+         <TableRow
+            android:layout_marginTop="20dp"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                    android:id="@+id/shownote"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/BLACK"     
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    
+                     />
+            
+            
+        </TableRow>
+        
+        
+    </TableLayout>
+    
+
+
+     
+     
+     
+     <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="112dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+                <Button
+         android:id="@+id/edit"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="15dp"
+         android:background="@color/WHITE"
+         android:text="Edit"
+         android:visibility="invisible"
+         android:layout_marginLeft="220dp"
+         android:textSize="20dp" />   
+            
+        </TableRow>
+        
+         </TableLayout>
+    
+</LinearLayout>

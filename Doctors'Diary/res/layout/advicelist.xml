@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grouprow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/showadvice"
+        android:layout_width="fill_parent"
+        android:textSize="18sp" 
+        />
+
+    <Button
+        android:id="@+id/deleteadvice"
+        android:width="100dp"
+        android:layout_marginLeft="140dp"
+        android:height="12dp"
+         android:text="delete"
+        android:linksClickable="true" />
+   
+    
+
+</TableRow>

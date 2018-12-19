@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Snow"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/testnamespinner"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittext"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/addtestbutton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/addvisit"
+                android:textColor="@color/WHITE"
+                android:textSize="15dp" />
+        </TableRow>
+    </TableLayout>
+
+    
+
+        <TableLayout
+            android:id="@+id/testtable"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/WHITE" >
+        </TableLayout>
+   
+
+    
+
+</LinearLayout>
